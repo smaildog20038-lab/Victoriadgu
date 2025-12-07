@@ -1,1 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Альянс Защиты Животных - Главная страница</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-paw"></i>
+                </div>
+                <div class="logo-text">Альянс Защиты Животных</div>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Открыть меню">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#programs">Наши программы</a></li>
+                    <li><a href="#help">Как помочь</a></li>
+                    <li><a href="#news">Новости</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li class="donate-btn-header"><a href="#donate" class="btn btn-accent">Помочь сейчас</a></li>
+                </ul>
+            </nav>
+            
+            <a href="#donate" class="btn btn-accent desktop-donate-btn">Помочь сейчас</a>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Защитим животных вместе!</h1>
+            <p>Мы — всероссийская организация, которая с 2008 года спасает животных от жестокости, защищает их права и продвигает гуманное обращение с животными по всей стране.</p>
+            <div class="hero-btns">
+                <a href="#help" class="btn">Стать волонтером</a>
+                <a href="#donate" class="btn btn-accent">Сделать пожертвование</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>15+</h3>
+                    <p>лет работы</p>
+                </div>
+                <div class="stat-item">
+                    <h3>12,500+</h3>
+                    <p>спасенных животных</p>
+                </div>
+                <div class="stat-item">
+                    <h3>45</h3>
+                    <p>регионов России</p>
+                </div>
+                <div class="stat-item">
+                    <h3>3,200+</h3>
+                    <p>волонтеров</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">О нашей организации</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Альянс защиты животных — это некоммерческая организация, созданная для защиты животных от жестокости и продвижения гуманного отношения к ним. Мы работаем по всей России, спасая животных из приютов, с улиц и от жестоких владельцев, оказываем им ветеринарную помощь и помогаем найти новый дом.</p>
+                    <p>За годы работы мы помогли тысячам животных обрести новый дом и любящих хозяев, провели сотни образовательных программ и добились изменений в законодательстве для защиты животных.</p>
+                    <p>Наша миссия — создать мир, в котором каждое животное будет защищено от жестокости и получит шанс на счастливую жизнь.</p>
+                    <a href="#about-more" class="btn btn-more">Узнать больше о нас</a>
+                </div>
+                <div class="about-image">
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <h2 class="section-title">Наши программы</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon" style="background-color: #2c8c4a;">
+                        <i class="fas fa-medkit"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3>Спасение и реабилитация</h3>
+                        <p>Мы спасаем животных из приютов, с улиц и от жестоких владельцев, оказываем им ветеринарную помощь и помогаем найти новый дом.</p>
+                        <a href="#program1" class="program-link">Узнать больше →</a>
+                    </div>
+                </div>
+                
+                <div class="program-card">
+                    <div class="program-icon" style="background-color: #1a5c2e;">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3>Образовательные программы</h3>
+                        <p>Мы проводим лекции, семинары и уроки в школах, чтобы научить детей и взрослых ответственному отношению к животным.</p>
+                        <a href="#program2" class="program-link">Узнать больше →</a>
+                    </div>
+                </div>
+                
+                <div class="program-card">
+                    <div class="program-icon" style="background-color: #f9a825;">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3>Законодательная защита</h3>
+                        <p>Мы работаем над изменением законодательства, чтобы защитить права животных и ужесточить наказание за жестокое обращение.</p>
+                        <a href="#program3" class="program-link">Узнать больше →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Help Section -->
+    <section class="help" id="help">
+        <div class="container">
+            <h2 class="section-title">Как вы можете помочь</h2>
+            <div class="help-options">
+                <div class="help-card">
+                    <div class="help-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Финансовая помощь</h3>
+                    <p>Пожертвуйте любую сумму на спасение животных. Даже небольшой взнос поможет купить корм или оплатить лечение.</p>
+                    <a href="#donate" class="btn">Пожертвовать</a>
+                </div>
+                
+                <div class="help-card">
+                    <div class="help-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Стать волонтером</h3>
+                    <p>Помогайте в приютах, участвуйте в акциях, распространяйте информацию или оказывайте профессиональную помощь.</p>
+                    <a href="#volunteer" class="btn">Стать волонтером</a>
+                </div>
+                
+                <div class="help-card">
+                    <div class="help-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Взять животное</h3>
+                    <p>Подарите дом бездомному животному. Мы поможем подобрать питомца, который подойдет именно вам.</p>
+                    <a href="#adoption" class="btn">Посмотреть животных</a>
+                </div>
+                
+                <div class="help-card">
+                    <div class="help-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>Рассказать о нас</h3>
+                    <p>Распространяйте информацию о нашей работе в социальных сетях и среди друзей. Это тоже важная помощь!</p>
+                    <a href="#share" class="btn">Поделиться</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news" id="news">
+        <div class="container">
+            <h2 class="section-title">Последние новости</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">15 мая 2023</div>
+                        <h3>Новый приют открылся в Подмосковье</h3>
+                        <p>Благодаря вашим пожертвованиям мы открыли новый современный приют для бездомных животных в Московской области.</p>
+                        <a href="#news1" class="news-link">Читать далее →</a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-icon">
+                        <i class="fas fa-dog"></i>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">8 мая 2023</div>
+                        <h3>Успешная операция по спасению 50 собак</h3>
+                        <p>Нашей команде удалось спасти 50 собак из неблагополучного питомника и разместить их в безопасных условиях.</p>
+                        <a href="#news2" class="news-link">Читать далее →</a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <div class="news-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-date">1 мая 2023</div>
+                        <h3>Образовательная программа в школах</h3>
+                        <p>Мы запустили новый цикл занятий для школьников о гуманном обращении с животными в 20 регионах России.</p>
+                        <a href="#news3" class="news-link">Читать далее →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacts">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Альянс защиты животных</h3>
+                    <p>Мы — всероссийская организация, которая с 2008 года спасает животных от жестокости, защищает их права и продвигает гуманное обращение с животными по всей стране.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="ВКонтакте"><i class="fab fa-vk"></i></a>
+                        <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Одноклассники"><i class="fab fa-odnoklassniki"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#programs">Наши программы</a></li>
+                        <li><a href="#help">Как помочь</a></li>
+                        <li><a href="#news">Новости</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <span>Москва, ул. Защитников Животных, д. 15</span>
+                        </li>
+                        <li>
+                            <span class="contact-icon"><i class="fas fa-phone"></i></span>
+                            <span>+7 (495) 123-45-67</span>
+                        </li>
+                        <li>
+                            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                            <span>info@allianceforanimals.ru</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Подписаться на новости</h3>
+                    <p>Будьте в курсе наших акций и новостей. Получайте только важную информацию.</p>
+                    <form class="subscribe-form" id="subscribeForm">
+                        <input type="email" placeholder="Ваш email" required>
+                        <button type="submit" class="btn">Подписаться</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span id="currentYear">2023</span> Альянс защиты животных. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
